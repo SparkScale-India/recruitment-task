@@ -1,0 +1,73 @@
+/* General Section */
+.values-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  /* Heading Styling */
+  .values-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+  }  
+  /* Underline effect */
+  .underline {
+    position: relative;
+    display: inline-block;
+    color: #000;
+  }
+  
+  .underline::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    background: #ff3b3b;
+    bottom: -5px;
+    left: 0;
+    transform: rotate(-2deg);
+  }
+  
+  /* Grid Layout */
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  /* Remove Shadows and Adjust Box */
+  .value-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;/* Thin border to replace shadow */
+  }
+  
+  /* Number Styling */
+  .number {
+    font-size: 34px;
+    font-weight: bold;
+    color: #ff3b3b;
+    margin-right: 8px;
+  }
+  
+  /* Title Styling */
+  .value-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Description */
+  .value-item p {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  

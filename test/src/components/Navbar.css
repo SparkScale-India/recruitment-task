@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: white;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px; /* Keeps the logo same size */
+    margin-right: 5px;
+    padding-right: 10;
+  }
+  
+  .brand-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1; /* Makes the links stay in the center */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 20px; /* Adds spacing between links */
+  }
+  
+  .nav-link:hover,
+  .nav-link.active {
+    color: red;
+  }
+  
