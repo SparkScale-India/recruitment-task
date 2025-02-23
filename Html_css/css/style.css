@@ -3624,7 +3624,7 @@ button {
 .clipped-title {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: url(../images/bg/06.jpg);
+  background-image: url(../assets/images/6.png);
   font-weight: 900;
   color: #fd4632; }
 
