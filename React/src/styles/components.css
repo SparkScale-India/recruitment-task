@@ -97,7 +97,6 @@
     list-style-type: none;
     text-align: center;
     width: 33.33%;
-    float: left;
     border: 1px solid #eeeeee;
     border-left: none;
     border-top: none;
@@ -163,6 +162,8 @@
     line-height: 110px;
     background: -webkit-linear-gradient(#fd4632, #fa3a72);
     -webkit-background-clip: text;
+    background-clip: text;
+
     -webkit-text-fill-color: transparent;
     opacity: 0.2;
     color: #fd4632;
@@ -214,6 +215,7 @@
     font-weight: 500;
     background: -webkit-linear-gradient(#fd4632, #fa3a72);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
     color: #fd4632;
@@ -235,6 +237,7 @@
     display: inline-block;
     background: -webkit-linear-gradient(#fd4632, #fa3a72);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #fd4632;
   }
@@ -522,6 +525,7 @@
     font-weight: 600;
     background: -webkit-linear-gradient(#fd4632, #fa3a72);
     -webkit-background-clip: text;
+    background-clip: text;
   }
   .portfolio-item .portfolio-info .portfolio-title {
     color: #242536;
@@ -994,7 +998,6 @@
   .team.team-02 .team-img .team-social ul li {
     display: inline-block;
     list-style-type: none;
-    float: left;
   }
   .team.team-02 .team-img .team-social ul li a {
     display: block;
@@ -1265,6 +1268,7 @@
   
   .clipped-title {
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: url(../assets/images/6.png);
     font-weight: 900;
