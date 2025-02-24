@@ -17,6 +17,7 @@
   .text-gradient {
     background: -webkit-linear-gradient(#fd4632, #fa3a72);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   
@@ -79,6 +80,7 @@
   .bg-primary-gradient .counter .counter-icon i {
     background: #242536;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #242536;
   }
@@ -98,6 +100,7 @@
   .bg-dark-gradient .counter .counter-icon i {
     background: #ffffff;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #ffffff;
   }
@@ -124,6 +127,7 @@
   .bg-dark .testimonial-item .testimonial-quote i {
     background: -webkit-linear-gradient(#fd4632, #fa3a72);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   
@@ -151,6 +155,7 @@
   .feature-step-item.bg-primary .step-number {
     background: #ffffff;
     -webkit-background-clip: text;
+    background-clip: text;
     color: #ffffff;
   }
   
