@@ -38,12 +38,12 @@
   }
   
   .bg-primary-gradient {
-    background: -webkit-gradient(linear, left top, right top, color-stop(30%, #fd4632), to(#fa3a72)) !important;
+    background: gradient(linear, left top, right top, color-stop(30%, #fd4632), to(#fa3a72)) !important;
     background: linear-gradient(to right, #fd4632 30%, #fa3a72 100%) !important;
   }
   
   .bg-dark-gradient {
-    background: -webkit-gradient(linear, left top, right top, color-stop(10%, #161427), to(#592036)) !important;
+    background: -gradient(linear, left top, right top, color-stop(10%, #161427), to(#592036)) !important;
     background: linear-gradient(to right, #161427 10%, #592036 100%) !important;
   }
   
